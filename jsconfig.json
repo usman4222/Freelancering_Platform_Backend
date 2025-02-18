@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "ES6", // Use "ES6" if you're using ES modules
+    //   "checkJs": true,      // Enable type-checking for .js files
+      "allowJs": true,      // Allows JavaScript files in the project
+      "target": "ES6",      // Use modern JavaScript features
+      "strict": true        // Enable strict type-checking options
+    },
+    "exclude": [
+      "node_modules",
+      "**/node_modules/*"
+  ]
+  }
