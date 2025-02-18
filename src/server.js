@@ -28,6 +28,10 @@ expApp.use(
 
 expApp.use(authMiddleware);
 
+app.get("/", (req, res) => {
+  res.send("Hello from Server!");
+});
+
 expApp.use("/", app);
 
 expApp.use(errorMiddleware);

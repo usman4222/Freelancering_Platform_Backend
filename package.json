@@ -4,12 +4,13 @@
   "main": "index.js",
   "type": "module",
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon ./src/server.js",
+    "build": "echo 'Skipping build step for backend'"
   },
   "keywords": [],
   "author": "",
