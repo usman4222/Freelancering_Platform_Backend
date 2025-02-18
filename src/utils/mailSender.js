@@ -30,13 +30,3 @@ const mailSender = async (email, title, body) => {
 };
 
 export default mailSender;
-
-
-
-        // Send emails to users
-        // let info = await transporter.sendMail({
-        //     from: 'www.sandeepdev.me - Sandeep Singh',
-        //     to: email,
-        //     subject: title,
-        //     html: body,
-        // });
