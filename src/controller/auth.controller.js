@@ -110,42 +110,6 @@ export const sendOTP = catchAsyncErrors(async (req, res, next) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const registerAdmin = catchAsyncErrors(async (req, res, next) => {
   const { fullname, email, password } = req.body;
   const user = await UserModel.exists({ email });
