@@ -32,6 +32,7 @@ expApp.use("/", app);
 
 expApp.use(errorMiddleware);
 
+
 dbConnection().then(() => {
   expApp.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
